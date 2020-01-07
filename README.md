@@ -1,4 +1,4 @@
-# lendlease-map
+# vue-svg-floor-plan
 
 ## Project setup
 ```
