@@ -1,28 +1,50 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+   <div id="app">
+     <Level1/>
+     <Level2/>
+     <Level2a/>
+     <LevelB1/>
+     <LevelB2/>
+     <LevelB3/>
+     <LevelC/>
+     <LevelG/>
+     <LevelM/>
+     <LevelPark/>
+   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Level1 from '@/components/Floor/Level-1'
+import Level2 from '@/components/Floor/Level-2'
+import Level2a from '@/components/Floor/Level-2a'
+import LevelB1 from '@/components/Floor/Level-B1'
+import LevelB2 from '@/components/Floor/Level-B2'
+import LevelB3 from '@/components/Floor/Level-B3'
+import LevelC from '@/components/Floor/Level-C'
+import LevelG from '@/components/Floor/Level-G'
+import LevelM from '@/components/Floor/Level-M'
+import LevelPark from '@/components/Floor/Level-Park'
 
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+    name: 'app',
+    components:{
+      Level1,
+      Level2,
+      Level2a,
+      LevelB1,
+      LevelB2,
+      LevelB3,
+      LevelC,
+      LevelG,
+      LevelM,
+      LevelPark
+    }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+ rect:hover{
+   fill:aqua;
+   opacity: 0.5;
+ }
 </style>
